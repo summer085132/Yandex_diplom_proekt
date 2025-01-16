@@ -13,3 +13,5 @@ def test_create_and_get_order_by_track():
     # Получаем данные заказа
     data_order = get_order_by_track(order_track_number)
     assert data_order.status_code == 200  # Проверка успешного получения заказа по треку
+
+# Мария Денисенко, 25 когорта, Финальный проект, инженер по тестированию плюс
